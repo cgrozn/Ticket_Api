@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TicketModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TblBilet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="PersonelID" Type="int" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="50" />
+    <Property Name="OlusTarih" Type="datetime" />
+    <Property Name="BitisTarihi" Type="datetime" />
+    <Property Name="Notlar" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="TblDosya">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="OlusTarih" Type="datetime" />
+    <Property Name="TipID" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Path" Type="nvarchar" MaxLength="200" />
+    <Property Name="Sira" Type="int" />
+  </EntityType>
+  <EntityType Name="TblFirma">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="FirmaID" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiNumara" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiDaire" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebSite" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TblPersonel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsAdmin" Type="bit" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Departman" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebSite" Type="nvarchar" MaxLength="100" />
+    <Property Name="FirmaID" Type="int" />
+    <Property Name="TokenTut" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="TblTip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Grup" Type="nvarchar" MaxLength="50" />
+    <Property Name="No" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sira" Type="nchar" MaxLength="10" />
+    <Property Name="IsAktif" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="TicketModelStoreContainer">
+    <EntitySet Name="TblBilet" EntityType="Self.TblBilet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblDosya" EntityType="Self.TblDosya" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblFirma" EntityType="Self.TblFirma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblPersonel" EntityType="Self.TblPersonel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblTip" EntityType="Self.TblTip" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

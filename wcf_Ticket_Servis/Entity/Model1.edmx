@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="TicketApp2020Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TblBilet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsSilindi" Type="bit" />
+          <Property Name="DurumNo" Type="int" />
+          <Property Name="TipNo" Type="int" />
+          <Property Name="PersonelID" Type="int" />
+          <Property Name="Baslik" Type="nvarchar" MaxLength="50" />
+          <Property Name="Konu" Type="nvarchar" MaxLength="50" />
+          <Property Name="OlusTarih" Type="datetime" />
+          <Property Name="BitisTarihi" Type="datetime" />
+          <Property Name="Notlar" Type="nvarchar" MaxLength="500" />
+          <Property Name="DosyaID" Type="int" />
+        </EntityType>
+        <EntityType Name="TblDosya">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsSilindi" Type="bit" />
+          <Property Name="DurumNo" Type="int" />
+          <Property Name="TipNo" Type="int" />
+          <Property Name="OlusTarih" Type="datetime" />
+          <Property Name="DosyaID" Type="int" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="ResimBoyut" Type="nvarchar" MaxLength="500" />
+          <Property Name="ResimUzanti" Type="nvarchar" MaxLength="500" />
+          <Property Name="ResimTur" Type="nvarchar" MaxLength="500" />
+          <Property Name="Path" Type="nvarchar" MaxLength="500" />
+          <Property Name="Sira" Type="int" />
+        </EntityType>
+        <EntityType Name="TblFirma">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsSilindi" Type="bit" />
+          <Property Name="DurumNo" Type="int" />
+          <Property Name="TipNo" Type="int" />
+          <Property Name="FirmaID" Type="int" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+          <Property Name="VergiNumara" Type="nvarchar" MaxLength="50" />
+          <Property Name="VergiDaire" Type="nvarchar" MaxLength="50" />
+          <Property Name="WebSite" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="TblPersonel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IsAdmin" Type="bit" />
+          <Property Name="IsSilindi" Type="bit" />
+          <Property Name="TipNo" Type="int" />
+          <Property Name="DurumNo" Type="int" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Departman" Type="nvarchar" MaxLength="50" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+          <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+          <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+          <Property Name="WebSite" Type="nvarchar" MaxLength="100" />
+          <Property Name="FirmaID" Type="int" />
+          <Property Name="TokenTut" Type="nvarchar" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="TblTip">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Grup" Type="nvarchar" MaxLength="50" />
+          <Property Name="No" Type="int" />
+          <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sira" Type="nchar" MaxLength="10" />
+          <Property Name="IsAktif" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="TicketApp2020ModelStoreContainer">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblBilet" EntityType="Self.TblBilet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblDosya" EntityType="Self.TblDosya" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblFirma" EntityType="Self.TblFirma" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblPersonel" EntityType="Self.TblPersonel" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblTip" EntityType="Self.TblTip" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TicketApp2020Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TblBilet">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsSilindi" Type="Boolean" />
+          <Property Name="DurumNo" Type="Int32" />
+          <Property Name="TipNo" Type="Int32" />
+          <Property Name="PersonelID" Type="Int32" />
+          <Property Name="Baslik" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Konu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="OlusTarih" Type="DateTime" Precision="3" />
+          <Property Name="BitisTarihi" Type="DateTime" Precision="3" />
+          <Property Name="Notlar" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="DosyaID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TblDosya">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsSilindi" Type="Boolean" />
+          <Property Name="DurumNo" Type="Int32" />
+          <Property Name="TipNo" Type="Int32" />
+          <Property Name="OlusTarih" Type="DateTime" Precision="3" />
+          <Property Name="DosyaID" Type="Int32" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ResimBoyut" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="ResimUzanti" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="ResimTur" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Path" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Sira" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TblFirma">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsSilindi" Type="Boolean" />
+          <Property Name="DurumNo" Type="Int32" />
+          <Property Name="TipNo" Type="Int32" />
+          <Property Name="FirmaID" Type="Int32" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adres" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telefon2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VergiNumara" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="VergiDaire" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="WebSite" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TblPersonel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IsAdmin" Type="Boolean" />
+          <Property Name="IsSilindi" Type="Boolean" />
+          <Property Name="TipNo" Type="Int32" />
+          <Property Name="DurumNo" Type="Int32" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Departman" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Telefon2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Adres" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="WebSite" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="FirmaID" Type="Int32" />
+          <Property Name="TokenTut" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TblTip">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Grup" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="No" Type="Int32" />
+          <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sira" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="IsAktif" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="TicketApp2020Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="TblBilet" EntityType="Self.TblBilet" />
+          <EntitySet Name="TblDosya" EntityType="Self.TblDosya" />
+          <EntitySet Name="TblFirma" EntityType="Self.TblFirma" />
+          <EntitySet Name="TblPersonel" EntityType="Self.TblPersonel" />
+          <EntitySet Name="TblTip" EntityType="Self.TblTip" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TicketApp2020ModelStoreContainer" CdmEntityContainer="TicketApp2020Entities">
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="TicketApp2020Model.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblBilet">
+            <EntityTypeMapping TypeName="TicketApp2020Model.TblBilet">
+              <MappingFragment StoreEntitySet="TblBilet">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+                <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+                <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+                <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+                <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+                <ScalarProperty Name="Konu" ColumnName="Konu" />
+                <ScalarProperty Name="OlusTarih" ColumnName="OlusTarih" />
+                <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+                <ScalarProperty Name="Notlar" ColumnName="Notlar" />
+                <ScalarProperty Name="DosyaID" ColumnName="DosyaID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblDosya">
+            <EntityTypeMapping TypeName="TicketApp2020Model.TblDosya">
+              <MappingFragment StoreEntitySet="TblDosya">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+                <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+                <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+                <ScalarProperty Name="OlusTarih" ColumnName="OlusTarih" />
+                <ScalarProperty Name="DosyaID" ColumnName="DosyaID" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="ResimBoyut" ColumnName="ResimBoyut" />
+                <ScalarProperty Name="ResimUzanti" ColumnName="ResimUzanti" />
+                <ScalarProperty Name="ResimTur" ColumnName="ResimTur" />
+                <ScalarProperty Name="Path" ColumnName="Path" />
+                <ScalarProperty Name="Sira" ColumnName="Sira" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblFirma">
+            <EntityTypeMapping TypeName="TicketApp2020Model.TblFirma">
+              <MappingFragment StoreEntitySet="TblFirma">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+                <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+                <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+                <ScalarProperty Name="FirmaID" ColumnName="FirmaID" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="VergiNumara" ColumnName="VergiNumara" />
+                <ScalarProperty Name="VergiDaire" ColumnName="VergiDaire" />
+                <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblPersonel">
+            <EntityTypeMapping TypeName="TicketApp2020Model.TblPersonel">
+              <MappingFragment StoreEntitySet="TblPersonel">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+                <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+                <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Departman" ColumnName="Departman" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+                <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+                <ScalarProperty Name="Adres" ColumnName="Adres" />
+                <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+                <ScalarProperty Name="FirmaID" ColumnName="FirmaID" />
+                <ScalarProperty Name="TokenTut" ColumnName="TokenTut" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblTip">
+            <EntityTypeMapping TypeName="TicketApp2020Model.TblTip">
+              <MappingFragment StoreEntitySet="TblTip">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Grup" ColumnName="Grup" />
+                <ScalarProperty Name="No" ColumnName="No" />
+                <ScalarProperty Name="Ad" ColumnName="Ad" />
+                <ScalarProperty Name="Sira" ColumnName="Sira" />
+                <ScalarProperty Name="IsAktif" ColumnName="IsAktif" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

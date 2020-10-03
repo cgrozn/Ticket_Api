@@ -1,0 +1,78 @@
+﻿@model wcf_Ticket_Servis_MVC.ViewModel.FirmaViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"  charset="utf-8"/>
+    <title>FirmaEkle</title>
+</head>
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+<body>
+    <div class="container">
+        @using (Html.BeginForm("FirmaEkle", "Firma", FormMethod.Post))
+        {
+            <table class="table table-bordered">
+
+
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.Ad)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.Ad)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.Adres)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.Adres)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.Telefon)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.Telefon)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.Telefon2)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.Telefon2)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.VergiDaire)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.VergiDaire)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.VergiNumara)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.VergiNumara)</td>
+
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.WebSite)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.WebSite)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.firma.Mail)</td>
+                    <td>@Html.TextBoxFor(model => model.firma.Mail)</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Kaydet" /></td>
+                </tr>
+            </table>
+        }
+
+        </div>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+
+</body>
+</html>

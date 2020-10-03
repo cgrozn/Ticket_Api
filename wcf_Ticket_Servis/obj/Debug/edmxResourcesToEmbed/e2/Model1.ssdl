@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TicketModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.sysdiagrams' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="name" />
+      <PropertyRef Name="principal_id" />
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.TblBilet' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblBilet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="PersonelID" Type="int" />
+    <Property Name="Baslik" Type="nvarchar" MaxLength="50" />
+    <Property Name="Konu" Type="nvarchar" MaxLength="50" />
+    <Property Name="OlusTarih" Type="datetime" />
+    <Property Name="BitisTarihi" Type="datetime" />
+    <Property Name="Notlar" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.TblDosya' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblDosya">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="OlusTarih" Type="datetime" />
+    <Property Name="TipID" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Path" Type="nvarchar" MaxLength="200" />
+    <Property Name="Sira" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.TblFirma' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblFirma">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="FirmaID" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiNumara" Type="nvarchar" MaxLength="50" />
+    <Property Name="VergiDaire" Type="nvarchar" MaxLength="50" />
+    <Property Name="WebSite" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.TblPersonel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblPersonel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="IsAdmin" Type="bit" />
+    <Property Name="IsSilindi" Type="bit" />
+    <Property Name="TipNo" Type="int" />
+    <Property Name="DurumNo" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Departman" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Telefon2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="500" />
+    <Property Name="WebSite" Type="nvarchar" MaxLength="100" />
+    <Property Name="FirmaID" Type="int" />
+    <Property Name="TokenTut" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Ticket.dbo.TblTip' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblTip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Grup" Type="nvarchar" MaxLength="50" />
+    <Property Name="No" Type="int" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sira" Type="nchar" MaxLength="10" />
+    <Property Name="IsAktif" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="TicketModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [sysdiagrams].[name] AS [name], 
+    [sysdiagrams].[principal_id] AS [principal_id], 
+    [sysdiagrams].[diagram_id] AS [diagram_id], 
+    [sysdiagrams].[version] AS [version], 
+    [sysdiagrams].[definition] AS [definition]
+    FROM [dbo].[sysdiagrams] AS [sysdiagrams]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblBilet" EntityType="Self.TblBilet" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblBilet].[ID] AS [ID], 
+    [TblBilet].[IsSilindi] AS [IsSilindi], 
+    [TblBilet].[DurumNo] AS [DurumNo], 
+    [TblBilet].[TipNo] AS [TipNo], 
+    [TblBilet].[PersonelID] AS [PersonelID], 
+    [TblBilet].[Baslik] AS [Baslik], 
+    [TblBilet].[Konu] AS [Konu], 
+    [TblBilet].[OlusTarih] AS [OlusTarih], 
+    [TblBilet].[BitisTarihi] AS [BitisTarihi], 
+    [TblBilet].[Notlar] AS [Notlar]
+    FROM [dbo].[TblBilet] AS [TblBilet]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblDosya" EntityType="Self.TblDosya" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblDosya].[ID] AS [ID], 
+    [TblDosya].[IsSilindi] AS [IsSilindi], 
+    [TblDosya].[DurumNo] AS [DurumNo], 
+    [TblDosya].[TipNo] AS [TipNo], 
+    [TblDosya].[OlusTarih] AS [OlusTarih], 
+    [TblDosya].[TipID] AS [TipID], 
+    [TblDosya].[Ad] AS [Ad], 
+    [TblDosya].[Path] AS [Path], 
+    [TblDosya].[Sira] AS [Sira]
+    FROM [dbo].[TblDosya] AS [TblDosya]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblFirma" EntityType="Self.TblFirma" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblFirma].[ID] AS [ID], 
+    [TblFirma].[IsSilindi] AS [IsSilindi], 
+    [TblFirma].[DurumNo] AS [DurumNo], 
+    [TblFirma].[TipNo] AS [TipNo], 
+    [TblFirma].[FirmaID] AS [FirmaID], 
+    [TblFirma].[Ad] AS [Ad], 
+    [TblFirma].[Adres] AS [Adres], 
+    [TblFirma].[Telefon] AS [Telefon], 
+    [TblFirma].[Telefon2] AS [Telefon2], 
+    [TblFirma].[Mail] AS [Mail], 
+    [TblFirma].[VergiNumara] AS [VergiNumara], 
+    [TblFirma].[VergiDaire] AS [VergiDaire], 
+    [TblFirma].[WebSite] AS [WebSite]
+    FROM [dbo].[TblFirma] AS [TblFirma]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblPersonel" EntityType="Self.TblPersonel" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblPersonel].[ID] AS [ID], 
+    [TblPersonel].[IsAdmin] AS [IsAdmin], 
+    [TblPersonel].[IsSilindi] AS [IsSilindi], 
+    [TblPersonel].[TipNo] AS [TipNo], 
+    [TblPersonel].[DurumNo] AS [DurumNo], 
+    [TblPersonel].[Ad] AS [Ad], 
+    [TblPersonel].[Soyad] AS [Soyad], 
+    [TblPersonel].[Password] AS [Password], 
+    [TblPersonel].[Departman] AS [Departman], 
+    [TblPersonel].[Email] AS [Email], 
+    [TblPersonel].[Telefon] AS [Telefon], 
+    [TblPersonel].[Telefon2] AS [Telefon2], 
+    [TblPersonel].[Adres] AS [Adres], 
+    [TblPersonel].[WebSite] AS [WebSite], 
+    [TblPersonel].[FirmaID] AS [FirmaID], 
+    [TblPersonel].[TokenTut] AS [TokenTut]
+    FROM [dbo].[TblPersonel] AS [TblPersonel]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblTip" EntityType="Self.TblTip" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblTip].[ID] AS [ID], 
+    [TblTip].[Grup] AS [Grup], 
+    [TblTip].[No] AS [No], 
+    [TblTip].[Ad] AS [Ad], 
+    [TblTip].[Sira] AS [Sira], 
+    [TblTip].[IsAktif] AS [IsAktif]
+    FROM [dbo].[TblTip] AS [TblTip]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

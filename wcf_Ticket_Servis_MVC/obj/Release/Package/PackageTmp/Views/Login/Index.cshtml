@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8"/>
+    <title>Index</title>
+</head>
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+<body>
+    <div class="container">
+
+
+        <div class="row">
+
+            <div class="col-sm-4">
+
+
+                @Html.Partial("Login")
+
+            </div>
+            <div class="col-sm-4">
+                <br /><br /><br /><br /><br />
+                @Html.Partial("KayitOl")
+
+            </div>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

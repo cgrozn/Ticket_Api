@@ -1,0 +1,166 @@
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.dll.config
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.pdb
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.exe
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.exe.config
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.rsp
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.exe
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.exe.config
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.rsp
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.AppContext.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Console.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Compression.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Pipes.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Claims.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.ValueTuple.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XPath.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.exe
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.exe.config
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.rsp
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\VBCSCompiler.exe
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Antlr3.Runtime.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.SqlServer.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.ComponentModel.Annotations.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Helpers.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Mvc.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Optimization.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Razor.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Deployment.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Razor.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\WebGrease.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\WeihanLi.Common.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.SqlServer.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.pdb
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Helpers.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Mvc.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Optimization.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Razor.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Deployment.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Razor.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Antlr3.Runtime.pdb
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csprojAssemblyReference.cache
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csproj.CoreCompileInputs.cache
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csproj.CopyComplete
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.dll
+C:\projects\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.pdb
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.pdb
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.dll.config
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\wcf_Ticket_Servis_MVC.pdb
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.exe
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.exe.config
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csc.rsp
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.exe
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.exe.config
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\csi.rsp
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Console.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.exe
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.exe.config
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\vbc.rsp
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Antlr3.Runtime.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.ComponentModel.Annotations.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Helpers.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Mvc.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Optimization.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Razor.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\WebGrease.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\WeihanLi.Common.dll
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.pdb
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Helpers.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Mvc.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Optimization.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.Razor.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Antlr3.Runtime.pdb
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Desktop\Yeni klasör (3)\Yeni klasör\Yeni klasör (2)\wcf_Ticket_Servis\wcf_Ticket_Servis_MVC\obj\Release\wcf_Ticket_Servis_MVC.csproj.CopyComplete

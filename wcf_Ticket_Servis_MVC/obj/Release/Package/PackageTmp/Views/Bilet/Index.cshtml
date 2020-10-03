@@ -1,0 +1,123 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>Index</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+    <div class="container">
+
+        <a class="btn btn-success" href="@Url.Action("BiletEkle","Bilet")">Bilet Ekle</a>
+        <br />
+
+       
+            <h1>Personel Istek</h1>
+
+            <table class="table table-bordered">
+                <thead>
+
+
+                    <tr>
+                        <th>Id</th>
+                        <th>Baslik</th>
+                        <th>Konu</th>
+                        <th>Notlar</th>
+                        <th>PersonelID</th>
+                        @*<th>Oluşturma Tarihi</th>*@
+                        <th>Silme</th>
+                        <th>Update</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var bilet in ViewBag.listeBiletPersonel)
+
+                    {
+
+                        <tr>
+
+                            <td>@bilet.ID</td>
+                            <td>@bilet.Baslik</td>
+                            <td>@bilet.Konu</td>
+                            <td>@bilet.Notlar</td>
+                            <td>@bilet.PersonelID</td>
+                            @*<td>@bilet.OlusTarih</td>*@
+                            <td><a class="btn btn-danger" href="@Url.Action("BiletDelete","Bilet",new { id=bilet.ID})">Delete</a></td>
+                            <td><a class="btn btn-success" href="@Url.Action("BiletUpdate","Bilet",new { id=bilet.ID})">Update</a></td>
+
+
+
+                        </tr>
+
+                    }
+                </tbody>
+
+            </table>
+        
+
+       
+            <br /><br />
+            <h1>Musteri Istek</h1>
+            <table class="table table-bordered">
+                <thead>
+
+
+                    <tr>
+                        <th>Id</th>
+                        <th>Baslik</th>
+                        <th>Konu</th>
+                        <th>Notlar</th>
+                        <th>PersonelID</th>
+                        <th>Silme</th>
+                        <th>Update</th>
+                        @*<th>OlusTarihi</th>*@
+                        @*<th>BitisTarihi</th>*@
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var bilet in ViewBag.listeBiletMusteri)
+
+                    {
+
+                    <tr>
+
+                        <td>@bilet.ID</td>
+                        <td>@bilet.Baslik</td>
+                        <td>@bilet.Konu</td>
+                        <td>@bilet.Notlar</td>
+                        <td>@bilet.PersonelID</td>
+                        <td><a class="btn btn-danger" href="@Url.Action("BiletDelete","Bilet",new { id=bilet.ID})">Delete</a></td>
+                        <td><a class="btn btn-success" href="@Url.Action("BiletUpdate","Bilet",new { id=bilet.ID})">Update</a></td>
+
+
+                        @*<td>@bilet.OlusTarih</td>*@
+                        @*<td>@bilet.BitisTarihi</td>*@
+
+
+                    </tr>
+
+                    }
+                </tbody>
+
+            </table>
+        
+
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

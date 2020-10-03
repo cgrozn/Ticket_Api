@@ -1,0 +1,48 @@
+﻿@model wcf_Ticket_Servis_MVC.ViewModel.PersonelViewModel
+
+
+<div class="container">
+
+    <table class="table table-bordered">
+        <thead>
+
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Departman</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Telefon2</th>
+                <th>Adres</th>
+                <th>WebSite</th>
+                <th>FirmaID</th>
+                <th>Silme</th>
+                <th>Güncelle</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var per in ViewBag.listePersonelListeSirket)
+            {
+            <tr>
+                <td>@per.ID</td>
+                <td>@per.Ad</td>
+                <td>@per.Soyad</td>
+                <td>@per.Departman</td>
+                <td>@per.Email</td>
+                <td>@per.Telefon</td>
+                <td>@per.Telefon2</td>
+                <td>@per.Adres</td>
+                <td>@per.WebSite</td>
+                <td>@per.FirmaID</td>
+                <td><a class="btn btn-success" href="@Url.Action("PersonelDelete","Personel",new { id=per.ID})">Delete</a></td>
+                <td><a class="btn btn-danger" href="@Url.Action("PersonelUpdate","Personel",new { id=per.ID})">Update</a></td>
+
+            </tr>
+            }
+        </tbody> 
+
+        </table>
+
+</div>

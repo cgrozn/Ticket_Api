@@ -1,0 +1,83 @@
+﻿@model wcf_Ticket_Servis_MVC.ViewModel.PersonelViewModel
+@{
+    ViewBag.Title = "PersonelUpdate";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>BiletUpdate</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div class="container">
+
+
+        @using (Html.BeginForm("PersonelUpdate", "Personel", FormMethod.Post))
+        {
+        <table class="table table-bordered table-striped">
+            @Html.HiddenFor(model => model.Personel.ID)
+
+
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Ad)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Ad)</td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Soyad)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Soyad)</td>
+
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Departman)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Departman)</td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Email)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Email)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Adres)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Adres)</td>
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Telefon)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Telefon)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.Telefon2)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.Telefon2)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Personel.WebSite)</td>
+                <td>@Html.TextBoxFor(model => model.Personel.WebSite)</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Kaydet" /></td>
+            </tr>
+        </table>
+        }
+        </div>
+
+
+
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+</body>
+
+</html>

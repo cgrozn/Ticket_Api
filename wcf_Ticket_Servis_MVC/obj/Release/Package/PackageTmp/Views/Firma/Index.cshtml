@@ -1,0 +1,80 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>Index</title>
+</head>
+
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+<body>
+    <div class="container">
+
+
+       <a class="btn btn-success" href="~/Firma/FirmaEkle">Yeni Müşteri Ekle</a>
+       
+
+        <br /><br />
+        <h1>Musteri Şirket Liste</h1>
+        <table class="table table-bordered">
+            <thead>
+
+
+                <tr>
+                    <th>Id</th>
+                    <th>Ad</th>
+                    <th>Adress</th>
+                    <th>Telefon</th>
+                    <th>Telefon2</th>
+                    <th>VergiDaire</th>
+                    <th>VergiNumara</th>
+                    <th>WebSite</th>
+                    <th>Mail</th>
+                    <th>Silme</th>
+                    <th>Güncelle</th>
+
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var firma in ViewBag.listeFirmaMusteri)
+
+                {
+
+                <tr>
+
+                   <td>@firma.ID</td>
+                    <td>@firma.Ad</td>
+                    <td>@firma.Adres</td>
+                    <td>@firma.Telefon</td>
+                    <td>@firma.Telefon2</td>
+                    <td>@firma.VergiDaire</td>
+                    <td>@firma.VergiNumara</td>
+                    <td>@firma.WebSite</td>
+                    <td>@firma.Mail</td>
+                    <td><a class="btn btn-danger" href="@Url.Action("FirmaDelete","Firma",new { id=firma.ID})">Delete</a></td>
+                    <td><a class="btn btn-success" href="@Url.Action("FirmaUpdate","Firma",new { id=firma.ID})">Update</a></td>
+
+
+
+                </tr>
+
+                }
+            </tbody>
+
+        </table>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

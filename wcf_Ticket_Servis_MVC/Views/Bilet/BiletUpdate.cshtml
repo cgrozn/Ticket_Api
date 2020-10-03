@@ -1,0 +1,75 @@
+﻿@model wcf_Ticket_Servis_MVC.ViewModel.BiletViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width" charset="utf-8"/>
+    <title>BiletUpdate</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+
+    <div class="container">
+       
+
+        @using (Html.BeginForm("BiletUpdate", "Bilet"))
+        {
+          
+
+        <table class="table table-bordered table-striped">
+
+
+            @Html.HiddenFor(model => model.Bilet.ID)
+            @Html.HiddenFor(model => model.Bilet.PersonelID)
+            <tr>
+                @*<td>@Html.LabelFor(model => model.Bilet.ID)</td>*@
+
+
+
+
+
+            </tr>
+
+            <tr>
+                <td>@Html.LabelFor(model => model.Bilet.Baslik)</td>
+                <td>@Html.TextBoxFor(model => model.Bilet.Baslik)</td>
+
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Bilet.Konu)</td>
+                <td>@Html.TextBoxFor(model => model.Bilet.Konu)</td>
+
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(model => model.Bilet.Notlar)</td>
+                <td>@Html.TextBoxFor(model => model.Bilet.Notlar)</td>
+
+            </tr>
+
+            @*<tr>
+            <td>@Html.LabelFor(model => model.Bilet.PersonelID)</td>
+            <td>@Html.TextBoxFor(model => model.Bilet.PersonelID)</td>
+
+        </tr>*@
+
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Kaydet" /></td>
+            </tr>
+        </table>
+        }
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

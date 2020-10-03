@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/stilim.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    
+    <div class="topnav" id="myTopnav" s>
+        <a href="~/Home/Index ">Anasayfa</a>
+        <a href="~/Bilet/Index">İstekler</a>
+        <a href="~/Firma/Index">Müşteriler</a>
+        <a href="~/Personel/Index">Personel</a>
+        <a href="~/Login/Logout">Çıkış Yap</a>
+        <p style="float:right">
+            @HttpContext.Current.User.Identity.Name
+            
+           
+        </p>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+    
+    <br />
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    @RenderBody()
+
+</body>
+</html>

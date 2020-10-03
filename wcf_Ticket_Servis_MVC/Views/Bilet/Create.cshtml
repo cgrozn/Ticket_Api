@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+@model wcf_Ticket_Servis_MVC.ViewModel.BiletViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+
+<body>
+    <div class=" container">
+        @using (Html.BeginForm("Create", "Bilet"))
+        {
+            <table class="table table-bordered">
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.Baslik)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.Baslik)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.Konu)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.Konu)</td>
+                </tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.Notlar)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.Notlar)</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.Departman)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.Departman)</td>
+                </tr>
+                @*<tr>
+                    <td>@Html.LabelFor(model => model.Bilet.OlusTarihi)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.OlusTarihi)</td>
+
+                </tr>
+                <tr>
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.BitisTarihi)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.BitisTarihi)</td>
+                </tr>*@
+                <tr>
+                    <td>@Html.LabelFor(model => model.Bilet.TipNo)</td>
+                    <td>@Html.TextBoxFor(model => model.Bilet.TipNo)</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" value="Kaydet" /></td>
+                </tr>
+            </table>
+
+        }
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TicketModelStoreContainer" CdmEntityContainer="TicketEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TicketModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBilet">
+      <EntityTypeMapping TypeName="TicketModel.TblBilet">
+        <MappingFragment StoreEntitySet="TblBilet">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+          <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+          <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="Konu" ColumnName="Konu" />
+          <ScalarProperty Name="OlusTarih" ColumnName="OlusTarih" />
+          <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+          <ScalarProperty Name="Notlar" ColumnName="Notlar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblDosya">
+      <EntityTypeMapping TypeName="TicketModel.TblDosya">
+        <MappingFragment StoreEntitySet="TblDosya">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+          <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+          <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+          <ScalarProperty Name="OlusTarih" ColumnName="OlusTarih" />
+          <ScalarProperty Name="TipID" ColumnName="TipID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblFirma">
+      <EntityTypeMapping TypeName="TicketModel.TblFirma">
+        <MappingFragment StoreEntitySet="TblFirma">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+          <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+          <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+          <ScalarProperty Name="FirmaID" ColumnName="FirmaID" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="VergiNumara" ColumnName="VergiNumara" />
+          <ScalarProperty Name="VergiDaire" ColumnName="VergiDaire" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblPersonel">
+      <EntityTypeMapping TypeName="TicketModel.TblPersonel">
+        <MappingFragment StoreEntitySet="TblPersonel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="IsSilindi" ColumnName="IsSilindi" />
+          <ScalarProperty Name="TipNo" ColumnName="TipNo" />
+          <ScalarProperty Name="DurumNo" ColumnName="DurumNo" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Departman" ColumnName="Departman" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Telefon2" ColumnName="Telefon2" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+          <ScalarProperty Name="FirmaID" ColumnName="FirmaID" />
+          <ScalarProperty Name="TokenTut" ColumnName="TokenTut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTip">
+      <EntityTypeMapping TypeName="TicketModel.TblTip">
+        <MappingFragment StoreEntitySet="TblTip">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Grup" ColumnName="Grup" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="IsAktif" ColumnName="IsAktif" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
